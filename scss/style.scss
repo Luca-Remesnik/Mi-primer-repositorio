@@ -1,4 +1,38 @@
-header {
-    background-color: brown;
 
+
+
+$color-principal: brown ;
+
+
+header {
+    background-color: $color-principal;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+        h1 {
+            background-color: chocolate;
+            padding: 10px;
+        }
+        div {
+            display: flex;
+            ul {
+                display: flex;
+                
+                li {
+                    display: flex;
+                    list-style: none;
+                    margin: 10px;
+                    align-items: center;
+                }
+            }
+        }
+}
+
+
+section {
+    div {
+        p {
+            background-color: $color-principal;
+        }
+    }
 }

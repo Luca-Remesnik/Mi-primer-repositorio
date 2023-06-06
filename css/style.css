@@ -1,5 +1,28 @@
 header {
   background-color: brown;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+header h1 {
+  background-color: chocolate;
+  padding: 10px;
+}
+header div {
+  display: flex;
+}
+header div ul {
+  display: flex;
+}
+header div ul li {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  align-items: center;
+}
+
+section div p {
+  background-color: brown;
 }
 
 /*# sourceMappingURL=style.css.map */
